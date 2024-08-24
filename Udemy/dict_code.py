@@ -28,3 +28,11 @@ def main():
 
 main()
 
+
+dict3={'name' : 'Aish','city' : 'Pune','company' : 'TCS'}
+dict4={'name1' : 'Shubh','city1' : 'Manali','company' : 'PS'}
+
+print(dict3)
+dict3.update(dict4)
+print(dict3)
+print(dict4)
