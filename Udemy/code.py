@@ -1,14 +1,14 @@
-multiply= lambda x,y:x*y
-print(multiply(3,5))
+# multiply= lambda x,y:x*y
+# print(multiply(3,5))
 #
-# dict1={'a':2,'b':4}
-# dict2={'c':6,'d':9}
+dict1={'a':2,'b':4}
+dict2={'c':6,'d':9}
 #
-# dict1.update(dict2)
-# print(dict1)
-#
-# result=dict1 | dict2
-# print(result)
+dict1.update(dict2)
+print(dict1)
+
+result=dict1 | dict2
+print(result)
 
 # from playwright.sync_api import sync_playwright
 # with sync_playwright() as p:
