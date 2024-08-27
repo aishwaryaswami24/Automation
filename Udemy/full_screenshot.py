@@ -5,4 +5,5 @@ with sync_playwright() as p:
     page=context.new_page()
     page.goto('https://playwright.dev/python/')
     page.wait_for_timeout(2000)
+    page.screenshot(path='playwright.png')
     browser.close()
