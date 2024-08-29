@@ -21,3 +21,8 @@ def test_site(page):
     page.wait_for_timeout(2000)
     assert page.title() == 'Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in'
 
+def test_site(page):
+    page.goto('https://www.instagram.com/')
+    page.wait_for_timeout(2000)
+    assert page.url == 'https://www.instagram.com/'
+
